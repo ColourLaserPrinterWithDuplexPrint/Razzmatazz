@@ -1,4 +1,3 @@
-import random
 def distortImage(file, output, char1, char2):
     #Usage : distortImage('image.jpg', 'glitchedImage.jpg', 't', 'y')
     with open(file, 'rb') as fileHandler:
